@@ -23,12 +23,23 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import DataTable from "./Hooks/useEffect/Table";
 
 // import App from "./Hooks/useEffect/cleanup process/App";
-import Counter from "./Hooks/useReducer/app";
-import ShoppingCart from "./Hooks/useReducer/ShoppingCart";
-import App from "./Hooks/useReducer/Pagination";
+// import Counter from "./Hooks/useReducer/app";
+// import ShoppingCart from "./Hooks/useReducer/ShoppingCart";
+// import App from "./Hooks/useReducer/Pagination";
+// import App from "./Hooks/useContext/UserDetails/App";
+// import App from "./Hooks/useContext/ThemeContext/App";
+// import App from "./Hooks/useContext/Authentication/App";
+// import App from "./Hooks/useContext/ButtonContext/App";
+// import ExpensiveComponent from "./Hooks/useMemo";
+// import ListWithoutMemo from "./Hooks/useMemo/filtering/ListWithoutMemo";
+// import App from "./Hooks/useMemo/Application/App";
+// import Counter from "./Hooks/useCallBackHook/counter";
+// import Parent from "./Hooks/useCallBackHook/react-memo/Parent";
+// import ParentComponent from "./Hooks/useCallBackHook/usecallback.js/ParentComponent";
+import ShoppingCart from "./Hooks/useCallBackHook/Shoppingcart/Shoppingcart";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(<ShoppingCart />);
 
 // const Greeting = () => {
 //   const name = "Rupesh";
